@@ -40,8 +40,5 @@ class PageObject {
         expect(currentLoginErr).to.equal(expectLoginErr, ERR_LOGIN_TEXT);
 
     }
-
-
-
 }
 module.exports = new PageObject();
